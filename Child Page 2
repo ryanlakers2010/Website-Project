@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threat Level Index | CyberMatch</title>
+</head>
+<body>
+
+    <!-- Consistent Site Header -->
+    <header>
+        <div class="logo-container">
+            <img src="images/cybermatch-logo.png" alt="CyberMatch Logo" class="site-logo">
+            <span class="logo-text">CyberMatch</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="assessment.html">Assessment</a></li>
+                <li><a href="threat-index.html" class="active">Threat Index</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Asymmetric Main Container Layout: CSS Grid (3fr 1fr) -->
+    <div class="sidebar-layout">
+        
+        <!-- Left Column: Dictionary Definitions (3fr) -->
+        <main class="main-content">
+            <h1>Threat Level Index</h1>
+            <p>Before buying protection tools, it helps to know what you are actually defending against. Use our plain-English dictionary index to master core security terminology and concepts.</p>
+            
+            <dl class="definition-list">
+                <dt><strong>Phishing Attacks (Medium Risk)</strong></dt>
+                <dd>Fake emails, messages, or websites engineered to look like genuine businesses (such as your bank) designed to trick you into typing in your passwords or credit card numbers.</dd>
+                
+                <!-- Required Image 1: Phishing Email Anatomy Graphic -->
+                <div class="diagram-container">
+                    <img src="images/phishing-diagram.png" alt="Infographic breaking down and pointing out the visual red flags of a trick phishing email" class="content-diagram">
+                </div>
+
+                <dt><strong>Ransomware (High Risk)</strong></dt>
+                <dd>A specialized type of malicious software that hijacks, locks, and encrypts your private files, holding them hostage until you pay the cybercriminal a specific fee.</dd>
+
+                <dt><strong>Multi-Factor Authentication / MFA</strong></dt>
+                <dd>A defense mechanism requiring two or more separate verification factors to gain system access (like a password combined with a text code), creating a crucial extra layer of security.</dd>
+
+                <dt><strong>Virtual Private Networks / VPNs</strong></dt>
+                <dd>A service that establishes an encrypted data tunnel for your device, completely masking your internet behavior and location from prying eyes on public networks.</dd>
+            </dl>
+        </main>
+
+        <!-- Right Column: Sidebar Visual Guides (1fr) -->
+        <aside class="sidebar">
+            <div class="educational-callout">
+                <h3>Visualizing Security</h3>
+                <p>Think of an unencrypted internet connection like a clear postcard anyone can read in transit. A VPN wraps that postcard in a heavy-duty titanium locked box.</p>
+                
+                <!-- Required Image 2: Unsecured vs Encrypted VPN Tunnel Diagram -->
+                <img src="images/vpn-tunnel-comparison.png" alt="Visual comparison chart showing vulnerable plain-text data versus secure encrypted data flowing through a VPN tunnel" class="sidebar-img">
+            </div>
+
+            <div class="mfa-callout">
+                <h3>Why MFA Matters</h3>
+                <p>Even if a scammer steals your password through phishing, Multi-Factor Authentication stops them dead in their tracks because they don't have physical access to your device.</p>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Consistent Site Footer -->
+    <footer>
+        <p>&copy; 2026 CyberMatch. All rights reserved. | Protecting Your Digital Footprint.</p>
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="assessment.html">Security Assessment</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
